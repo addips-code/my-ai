@@ -2,7 +2,7 @@
 
 import { Card } from "@/components/ui/card"
 import { cn } from "@/lib/utils"
-import { ArrowRight, CodeIcon, ImageIcon, MessageSquare, MusicIcon, Settings, VideoIcon } from "lucide-react"
+import { ArrowRight, CodeIcon, ImageIcon, MessageSquare, MusicIcon, VideoIcon } from "lucide-react"
 import { useRouter } from "next/navigation"
 
 
@@ -37,7 +37,7 @@ const tools = [
 ]
 
 const DashboardPage = () => {
-  const router = useRouter()
+  const router = useRouter();
   return (
     <div>
       <div className="mb-8 space-y-4">

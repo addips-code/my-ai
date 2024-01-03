@@ -20,12 +20,12 @@ const routes = [
     },{
         label: 'Conversation',
         icon: MessageSquare,
-        href: '/conversation',
+        href: '/dashboard/conversation',
         color: 'text-violet-500',
     },{
         label: 'Image Generation',
         icon: ImageIcon,
-        href: '/image',
+        href: '/dashboard/image',
         color: 'text-pink-500',
     },{
         label: 'Video Generation',
