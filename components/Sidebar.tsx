@@ -30,22 +30,22 @@ const routes = [
     },{
         label: 'Video Generation',
         icon: VideoIcon,
-        href: '/video',
+        href: '/dashboard/video',
         color: 'text-Orange-700',
     },{
         label: 'Music Generation',
         icon: MusicIcon,
-        href: '/music',
+        href: '/dashboard/music',
         color: 'text-emerald-500',
     },{
         label: 'Code Generation',
         icon: CodeIcon,
-        href: '/code',
+        href: '/dashboard/code',
         color: 'text-green-700',
     },{
         label: 'Settings',
         icon: Settings,
-        href: '/settings',
+        href: '/dashboard/settings',
     },
 ]
 
